@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
               fit: BoxFit.cover,
             ),
           ),
-          child: Padding(padding: const EdgeInsets.fromLTRB(0,135,0,0),
+          child: Padding(padding: const EdgeInsets.fromLTRB(0,140,0,0),
           child: Column(
           children: <Widget>[
             TextButton.icon(
