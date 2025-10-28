@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
               fit: BoxFit.cover,
             ),
           ),
-          child: Padding(padding: const EdgeInsets.fromLTRB(0,120,0,0),
+          child: Padding(padding: const EdgeInsets.fromLTRB(0,135,0,0),
           child: Column(
           children: <Widget>[
             TextButton.icon(
@@ -78,7 +78,7 @@ class _HomeState extends State<Home> {
               ],
                 ),
 
-            SizedBox(height: 20.0),
+            SizedBox(height: 80.0),
             Text(
               data['time'],
               style: TextStyle(

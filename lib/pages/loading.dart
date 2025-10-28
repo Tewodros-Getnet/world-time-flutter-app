@@ -54,7 +54,7 @@ class _LoadingState extends State<Loading> {
 
     // 🔄 Step 2: Proceed with API call if connected
     WorldTime instance = WorldTime(
-      location: 'Ethiopia - Addis Ababa',
+      location: 'Ethiopia - Addis Ababa ',
       flag: 'ethiopia-flag.png',
       url: 'Africa/Addis_Ababa',
     );
@@ -93,14 +93,14 @@ class _LoadingState extends State<Loading> {
             : Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.wifi_off, color: Colors.red, size: 50),
+            Icon(Icons.wifi_off, color: Colors.red, size: 45),
             const SizedBox(height: 20),
             Text(
               errorMessage!,
               style: const TextStyle(color: Colors.white, fontSize: 18),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 20),
+            // const SizedBox(height: 20),
             // ElevatedButton.icon(
             //   onPressed: setupWorldTime,
             //   icon: const Icon(Icons.refresh),

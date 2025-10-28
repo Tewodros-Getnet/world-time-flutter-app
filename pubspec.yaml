@@ -43,7 +43,16 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
-  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.0
+
+
+flutter_native_splash:
+  color: "#3F51B5"       # Indigo background to match your Loading screen
+  image: assets/app_logo.png  # Add this file under your assets/ folder
+  android_12:
+    image: assets/app_logo.png
+    icon_background_color: "#3F51B5"
+  web: false
 
 
 flutter_launcher_icons:
@@ -57,6 +66,7 @@ flutter_launcher_icons:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
+  flutter_lints: ^5.0.0
 
 
 # For information on the generic Dart part of this file, see the
