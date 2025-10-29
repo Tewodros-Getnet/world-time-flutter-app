@@ -47,8 +47,8 @@ dev_dependencies:
 
 
 flutter_native_splash:
-  color: "#3F51B5"       # Indigo background to match your Loading screen
-  image: assets/app_logo.png  # Add this file under your assets/ folder
+  color: "#3F51B5"
+  image: assets/app_logo.png
   android_12:
     image: assets/app_logo.png
     icon_background_color: "#3F51B5"
